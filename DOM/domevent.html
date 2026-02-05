@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="hw">Hello World</h2>
+    <button onclick="change()">Change the text</button>
+    <hr>
+    
+</body>
+<script>
+    let select=document.getElementById("hw")
+    console.log(select.textContent)
+    function change(){
+        select.textContent=("Bye world")
+    }
+</script>
+</html>
